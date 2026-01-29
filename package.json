@@ -5,20 +5,20 @@
   "description": "Strapi app for DigitalOcean App Platform",
   "scripts": {
     "build": "strapi build",
-    "start": "strapi start",
-    "develop": "strapi develop"
+    "start": "strapi start"
   },
   "dependencies": {
-    "@strapi/strapi": "^4.25.0",
-    "@strapi/plugin-users-permissions": "^4.25.0",
-    "@strapi/plugin-i18n": "^4.25.0",
-    "@strapi/plugin-cloud": "^4.25.0",
+    "@strapi/strapi": "4.26.1",
+    "@strapi/plugin-users-permissions": "4.26.1",
+    "@strapi/plugin-i18n": "4.26.1",
+    "@strapi/plugin-cloud": "4.26.1",
+
     "pg": "^8.11.5",
 
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-router-dom": "^5.3.4",
-    "styled-components": "^5.3.11"
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-router-dom": "5.3.4",
+    "styled-components": "5.3.3"
   },
   "engines": {
     "node": "20.x",
