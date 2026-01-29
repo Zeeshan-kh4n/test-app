@@ -1,18 +1,27 @@
 {
   "name": "my-strapi-app",
-  "version": "0.1.0",
   "private": true,
+  "version": "0.1.0",
+  "description": "Strapi app for DigitalOcean App Platform",
   "scripts": {
-    "develop": "strapi develop",
+    "build": "strapi build",
     "start": "strapi start",
-    "build": "strapi build"
+    "develop": "strapi develop"
   },
   "dependencies": {
-    "@strapi/strapi": "^4.15.8",
-    "sqlite3": "^5.1.6"
+    "@strapi/strapi": "^4.25.0",
+    "@strapi/plugin-users-permissions": "^4.25.0",
+    "@strapi/plugin-i18n": "^4.25.0",
+    "@strapi/plugin-cloud": "^4.25.0",
+    "pg": "^8.11.5",
+
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^5.3.4",
+    "styled-components": "^5.3.11"
   },
   "engines": {
-    "node": "20.x",
-    "npm": ">=9.6.3"
+    "node": ">=18 <=20",
+    "npm": ">=9"
   }
 }
