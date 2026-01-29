@@ -1,8 +1,8 @@
 {
-  "name": "my-strapi-app",
+  "name": "strapi-app",
   "private": true,
   "version": "0.1.0",
-  "description": "Strapi app for DigitalOcean App Platform",
+  "description": "Strapi on DigitalOcean App Platform",
   "scripts": {
     "build": "strapi build",
     "start": "strapi start"
